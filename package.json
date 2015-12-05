@@ -2,7 +2,7 @@
   "name": "dead-simple-light-syntax",
   "main": "./lib/dead-simple.coffee",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A light syntax theme with minimal coloring for minimal distraction.",
   "keywords": [
     "syntax",
