@@ -1,0 +1,105 @@
+/*
+  dead simple ──────────────────────────────────────┐
+  │                                                 │
+  │ https://atom.io/themes/dead-simple-light-syntax │
+  │                                                 │
+  └───────────────────────────────────── light syntax
+*/
+
+@import 'syntax-variables';
+@import './editor';
+@import './languages/html';
+@import './languages/css';
+@import './languages/js';
+@import './languages/jsx';
+@import './languages/coffee';
+@import './languages/gfm';
+@import './languages/json';
+@import './languages/ruby';
+
+.keyword {
+  color: @keyword;
+
+  &.regexp {
+    color: @special;
+  }
+
+  &.operator {
+    color: @syntax-text-color;
+    &.regexp {
+      color: @special;
+    }
+  }
+
+  &.other.unit {
+    color: @special;
+  }
+}
+.storage {
+  color: @special;
+}
+
+.string {
+  color: @string;
+}
+
+.entity {
+  &.name.function {
+    font-weight: bold;
+  }
+}
+.constant {
+  color: @syntax-text-color;
+
+  &.character.escape {
+    color: @keyword;
+  }
+
+  &.numeric {
+    color: @special-dark;
+  }
+
+  &.boolean {
+    color: @special;
+  }
+}
+
+.comment {
+  color: @muted;
+  font-style: italic;
+}
+
+.variable {
+  color: @syntax-text-color;
+  &.parameter {
+    font-style: italic;
+  }
+}
+
+.punctuation.definition {
+  &.comment {
+    color: @muted;
+  }
+
+  &.parameters {
+    font-style: italic;
+  }
+
+  &.string,
+  //&.variable,
+  &.array {
+    color: @string;
+  }
+}
+
+.invalid.illegal {
+  background-color: @special-dark;
+  color: @background;
+}
+/*
+  ┌─────────────┐
+  │             │
+  │ dead simple │
+  │             │
+  └─────────────┘
+*/

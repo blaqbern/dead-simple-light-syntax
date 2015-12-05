@@ -1,0 +1,36 @@
+.source.css {
+  &.less,
+  &.sass,
+  &.scss {
+    .variable {
+      color: @keyword;
+    }
+  }
+  .entity.other.attribute-name {
+    color: @keyword;
+  }
+  .punctuation.definition {
+    &.entity {
+      color: @string-dark;
+    }
+  }
+  .constant {
+    &.other.color,
+    &.other.rgb-value {
+      color: @special;
+      &.scss {
+        .punctuation.definition {
+          color: @special-dark;
+        }
+      }
+    }
+  }
+  &.scss {
+    .punctuation {
+      color: @syntax-text-color;
+    }
+    .entity.tag {
+      color: @string;
+    }
+  }
+}

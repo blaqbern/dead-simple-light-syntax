@@ -1,0 +1,27 @@
+.source.coffee {
+  .storage.function {
+    color: @special
+  }
+  .string.quoted.double {
+    .embedded {
+      &, &.punctuation {
+        color: @string-dark;
+      }
+    }
+  }
+  .meta.function {
+    .entity.name.function {
+      font-weight: bold;
+    }
+  }
+  .entity {
+    &.name.function {
+      font-weight: normal;
+    }
+  }
+  .variable.instance {
+    &, .punctuation.definition {
+      color: @keyword-dark;
+    }
+  }
+}

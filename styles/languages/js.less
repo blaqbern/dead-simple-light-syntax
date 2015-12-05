@@ -1,0 +1,15 @@
+.source.js {
+  .storage {
+    color: @keyword;
+    &.arrow {
+      color: @special;
+    }
+  }
+  .string.template {
+    .embedded {
+      &, &.punctuation {
+        color: @string-dark;
+      }
+    }
+  }
+}

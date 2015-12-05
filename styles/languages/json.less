@@ -1,0 +1,17 @@
+.source.json {
+  .string {
+    color: @special;
+  }
+  .meta.structure {
+    .punctuation.separator {
+        color: black;
+      }
+  }
+  .punctuation.definition {
+    color: @special-dark;
+    &.dictionary,
+    &.array {
+      color: black;
+    }
+  }
+}

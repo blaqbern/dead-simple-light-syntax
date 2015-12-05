@@ -1,0 +1,26 @@
+.source.ruby {
+  .string.double.quoted {
+    .embedded {
+      color: @string-dark;
+    }
+  }
+  .punctuation.separator.variable,
+  .variable.block {
+    color: @special;
+  }
+  .variable.instance {
+    color: @keyword-dark;
+    .punctuation.definition {
+      color: @keyword;
+    }
+  }
+  .punctuation.inheritance {
+    color: @special-dark;
+  }
+  .constant.symbol {
+    color: @string;
+    .punctuation.definition {
+      color: @string-dark;
+    }
+  }
+}

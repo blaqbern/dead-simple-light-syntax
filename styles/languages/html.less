@@ -1,0 +1,15 @@
+.entity {
+  &.name.tag {
+    color: @keyword;
+    .string {
+      color: @string;
+    }
+  }
+}
+
+.punctuation.definition.tag {
+  color: @keyword-dark;
+  .sgml & {
+    color: @syntax-text-color;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "dead-simple-light-syntax",
+  "main": "./lib/dead-simple.coffee",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A light syntax theme with minimal coloring for minimal distraction.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "minimal",
+    "light"
+  ],
+  "repository": "https://github.com/blaqbern/dead-simple-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
