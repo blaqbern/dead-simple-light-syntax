@@ -8,7 +8,7 @@ You can choose from two color schemes and three background colors. Simply go to 
 
 I think Dead Simple looks best with Atom's One Light UI theme and Source Code Pro.
 
-![screenshot-js](screenshot-js.gif)
+![screenshot-js](https://github.com/blaqbern/dead-simple-light-syntax/blob/master/screenshot-js.gif?raw=true)
 
 ### Some other notes
 
